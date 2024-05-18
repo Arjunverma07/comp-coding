@@ -10,4 +10,5 @@ public:
         // AND
         return evaluateTree(root->left) && evaluateTree(root->right);
     }
+
 };
